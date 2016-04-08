@@ -10,12 +10,12 @@ This tool can work well in Win, Mac and Linux.
 
 1. You need [Python 2.7.x]("https://www.python.org/") and install the [setuptools]("https://pypi.python.org/pypi/setuptools"), which are found in the official website.
 2. Copy AndroPermissions into local, and excute following code in terminal:
-````
-python setup.py install
-````
-3. Then, given the APK for analyzing, and excute:
-````
-androlyze.py -i "TestActivity.apk" -x
-````
-The TestActivity.apk is the demo for checking permissions.
- 4. Final, you will get the two txt files for permissions results.
+  ```python
+  python setup.py install
+  ```
+3. Then given the APK for analyzing and excute:
+  ```python
+  androlyze.py -i "TestActivity.py" -x
+  ```
+  The TestActivity.apk is the demo for checking permissions.
+4. Final, you will get the two txt files for permissions results.
